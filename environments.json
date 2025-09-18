@@ -1,0 +1,20 @@
+[
+    {
+        "id": "dev-1758184647283",
+        "name": "Dev Env",
+        "active": true,
+        "variables": {
+            "baseUrl": "https://so.gitee.com",
+            "apiKey": "dev-api-key-123"
+        }
+    },
+    {
+        "id": "test-1758184647283",
+        "name": "Test Env",
+        "active": false,
+        "variables": {
+            "baseUrl": "https://so.csdn.net/so/search",
+            "apiKey": "test-api-key-456"
+        }
+    }
+]

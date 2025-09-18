@@ -1,0 +1,361 @@
+[
+    {
+        "type": "group",
+        "name": "Default Group",
+        "children": [
+            {
+                "type": "request",
+                "data": {
+                    "id": "e28a49760a2c4e5290dd85afc493f39b",
+                    "name": "Environment Variable + Script Example",
+                    "url": "{{baseUrl}}?q=lakernote",
+                    "method": "GET",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "*/*"
+                    },
+                    "body": "",
+                    "params": {
+                        "q": "lakernote"
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "console.log('This is a pre-request script');",
+                    "postscript": "console.log('This is a post-request script');\npm.test('Response status is 200', function () {\n    pm.response.to.have.status(200);\n});\n",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "fdbc95d36c114f3a95c6fc658295aa3f",
+                    "name": "GET Example",
+                    "url": "https://httpbin.org/get?q=easytools&lang=en&page=1&size=10&sort=desc&filter=active",
+                    "method": "GET",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "application/json"
+                    },
+                    "body": "",
+                    "params": {
+                        "q": "easytools",
+                        "lang": "en",
+                        "page": "1",
+                        "size": "10",
+                        "sort": "desc",
+                        "filter": "active"
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "pm.test('Response status is 200', function () {\n    pm.response.to.have.status(200);\n});",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "08a2e2b9b93f450883d0f820e3c58858",
+                    "name": "POST-JSON Example",
+                    "url": "https://httpbin.org/post",
+                    "method": "POST",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "*/*",
+                        "Content-Type": "application/json"
+                    },
+                    "body": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "169eb81e36674ad4b47320da63f5e0e6",
+                    "name": "POST-form-data Example",
+                    "url": "https://httpbin.org/post",
+                    "method": "POST",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "*/*",
+                        "Content-Type": "multipart/form-data"
+                    },
+                    "body": "",
+                    "params": {
+                    },
+                    "formData": {
+                        "key1": "value1",
+                        "key2": "value2"
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "30b7716d3e7b47fbb05728bd716d4f3d",
+                    "name": "POST-x-www-form-urlencoded Example",
+                    "url": "https://httpbin.org/post",
+                    "method": "POST",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "*/*",
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    "body": "",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                        "key1": "value1",
+                        "key2": "value2"
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "c04dfa6d227145a4ba174bf655cef141",
+                    "name": "PUT Example",
+                    "url": "https://httpbin.org/put",
+                    "method": "PUT",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "*/*",
+                        "Content-Type": "application/json"
+                    },
+                    "body": "{\"update\":true}",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "727c403513334736ab66766041194fc5",
+                    "name": "DELETE Example",
+                    "url": "https://httpbin.org/delete",
+                    "method": "DELETE",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "*/*"
+                    },
+                    "body": "",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "6413fe87b2954ce8bf3e04ed50b2d2ab",
+                    "name": "Redirect Example",
+                    "url": "https://httpbin.org/redirect/1",
+                    "method": "GET",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client"
+                    },
+                    "body": "",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "fa3631b18e7245a58944834b8275cc0d",
+                    "name": "WebSocket Example",
+                    "url": "wss://echo.websocket.org",
+                    "method": "GET",
+                    "protocol": "WEBSOCKET",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client"
+                    },
+                    "body": "",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "a2c5031881c448a69132df73cea0144a",
+                    "name": "SSE Example",
+                    "url": "https://sse.dev/test",
+                    "method": "GET",
+                    "protocol": "SSE",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "text/event-stream"
+                    },
+                    "body": "",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
+            }
+        ]
+    }
+]

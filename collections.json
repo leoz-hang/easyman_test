@@ -355,6 +355,40 @@
                     "isFollowRedirects": true,
                     "newRequest": false
                 }
+            },
+            {
+                "type": "request",
+                "data": {
+                    "id": "7867a025e35d48aba155e19869129d70",
+                    "name": "测试",
+                    "url": "https://httpbin.org/get",
+                    "method": "GET",
+                    "protocol": "HTTP",
+                    "headers": {
+                        "User-Agent": "EasyPostman Client",
+                        "Accept": "*/*"
+                    },
+                    "body": "",
+                    "params": {
+                    },
+                    "formData": {
+                    },
+                    "formFiles": {
+                    },
+                    "urlencoded": {
+                    },
+                    "extractorRules": [
+                    ],
+                    "autoExtractVariables": true,
+                    "authType": "No Auth",
+                    "authUsername": "",
+                    "authPassword": "",
+                    "authToken": "",
+                    "prescript": "",
+                    "postscript": "",
+                    "isFollowRedirects": true,
+                    "newRequest": false
+                }
             }
         ]
     }
